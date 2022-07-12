@@ -1,0 +1,19 @@
+.start {
+    width: 1000px;
+    padding:25px;
+    border: 2px solid black;
+    margin: 0;
+  }
+
+  .primary {
+    display: flex;
+    gap: 10px;
+  }
+
+  .general-info {
+    display: flex;
+    gap: 10px;
+  }
+
+
+ 
