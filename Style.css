@@ -4,16 +4,19 @@
   border: 2px solid black;
   margin: 0;
   display: flex;
+  gap: 10px;
 }
 
 .primary  {
   display: flex;
-  gap: 10px;
+  gap: 10px; 
+  margin: 2% auto;
 }
 
 .general-info  {
   display: flex;
   gap: 10px;
+  margin: 2% auto;
 }
 
 .enterprise-name {
@@ -37,6 +40,7 @@
 
 .posicion-name {
   font-weight: bold;
+  margin: 2% auto;
 }
 
 .time {
@@ -54,5 +58,47 @@
 .secundary {
   display: flex;
   flex-direction: row-reverse;
+  gap: 10px;
+  align-items: center;
 }
 
+.languages{ 
+  display: flex;
+  gap: 10px;
+}
+
+.role {
+  color: #40A5A4;
+  background: #EEEDED;
+}
+
+.level {
+  color: #40A5A4;
+  background: #EEEDED;
+}
+
+.web-page {
+  color: #40A5A4;
+  background: #EEEDED;
+}
+
+.blade-style {
+  color: #40A5A4;
+  background: #EEEDED;
+}
+
+.programming {
+  color: #40A5A4;
+  background: #EEEDED;
+}
+
+.space {
+  display: flex;
+  align-items: center;
+  gap: 350px;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+}
