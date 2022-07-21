@@ -1,3 +1,6 @@
+.container {
+  font-family: sans-serif;
+}
 .start  {
   width: 1000px;
   padding: 25px;
@@ -9,15 +12,15 @@
 
 .primary  {
   display: flex;
+  align-items: center;
   gap: 10px; 
-  margin: 2% auto;
 }
 
 .general-info  {
   display: flex;
   gap: 10px;
-  margin: 2% auto;
 }
+  
 
 .enterprise-name {
   color: #40A5A4;
@@ -40,7 +43,6 @@
 
 .posicion-name {
   font-weight: bold;
-  margin: 2% auto;
 }
 
 .time {
@@ -95,10 +97,11 @@
 .space {
   display: flex;
   align-items: center;
-  gap: 350px;
+  gap: 300px;
 }
 
 .first {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
