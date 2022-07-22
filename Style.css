@@ -2,7 +2,6 @@
   font-family: 'League Spartan', sans-serif;
 }
 .start  {
-  font-family: 'League Spartan', sans-serif;
   -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.35); 
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.35);
   width: 1000px;
@@ -10,7 +9,7 @@
   margin: 0;
   display: flex;
   gap: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .border-left-green { 
