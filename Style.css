@@ -1,10 +1,10 @@
 .container {
-  font-family: 'League Spartan', sans-serif;
+  font-family: "League Spartan", sans-serif;
 }
-.start  {
-  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.35); 
-  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.35);
-  width: 1000px;
+.start {
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.35);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.35);
+  max-width: 1000px;
   padding: 25px;
   margin: 0;
   display: flex;
@@ -12,24 +12,23 @@
   border-radius: 5px;
 }
 
-.border-left-green { 
-  border-left: 6px solid #40A5A4;
+.border-left-green {
+  border-left: 6px solid #40a5a4;
 }
 
-.primary  {
+.primary {
   display: flex;
   align-items: center;
-  gap: 10px; 
+  gap: 10px;
 }
 
-.general-info  {
+.general-info {
   display: flex;
   gap: 10px;
 }
-  
 
 .enterprise-name {
-  color: #40A5A4;
+  color: #40a5a4;
 }
 
 .chip {
@@ -39,7 +38,7 @@
 
 .status {
   color: white;
-  background: #40A5A4;
+  background: #40a5a4;
 }
 
 .category {
@@ -70,44 +69,74 @@
   align-items: center;
 }
 
-.languages{ 
+.languages {
   display: flex;
   gap: 10px;
 }
 
 .role {
-  color: #40A5A4;
-  background: #EEEDED;
+  color: #40a5a4;
+  background: #eeeded;
 }
 
 .level {
-  color: #40A5A4;
-  background: #EEEDED;
+  color: #40a5a4;
+  background: #eeeded;
 }
 
 .web-page {
-  color: #40A5A4;
-  background: #EEEDED;
+  color: #40a5a4;
+  background: #eeeded;
 }
 
 .blade-style {
-  color: #40A5A4;
-  background: #EEEDED;
+  color: #40a5a4;
+  background: #eeeded;
 }
 
 .programming {
-  color: #40A5A4;
-  background: #EEEDED;
+  color: #40a5a4;
+  background: #eeeded;
 }
 
 .space {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 300px;
+  gap: 20px;
 }
 
 .first {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.horizontal-separator {
+  display: none;
+}
+
+@media (max-width: 728px) {
+  .images {
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    top: -44px;
+    left: 20px;
+  }
+
+  .horizontal-separator {
+    display: block;
+    height: 1px;
+    background-color: lightgray;
+    width: 100%;
+  }
+
+  .start {
+    margin-top: 50px;
+    position: relative;
+    padding-top: 50px;
+  }
 }
