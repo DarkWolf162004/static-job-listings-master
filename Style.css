@@ -13,6 +13,10 @@
   border-radius: 10px;
 }
 
+.border-left-green { 
+  border-left: 6px solid #40A5A4;
+}
+
 .primary  {
   display: flex;
   align-items: center;
