@@ -14,14 +14,16 @@ clone.getElementsByClassName("level")[0].innerHTML="Midweight"
 clone.getElementsByClassName("web-page")[0].innerHTML="Python"
 clone.getElementsByClassName("blade-style")[0].innerHTML="React"
 clone.getElementsByClassName("programming")[0].style.display="none"
+clone.classList.remove("border-left-green");
 //clone.getElementsByClassName("secundary")[0].innerHTML=""
 
-const div =  document.querySelector('div');
-div.classList.remove('info');
 
 
 
 original.after(clone)
+
+
+
 
 
 
