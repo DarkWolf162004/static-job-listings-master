@@ -1,11 +1,10 @@
 const original = document.getElementById("frame");
 
-function createJobItem() {
+function createJobItem(posicionName, images) {
   const clone = original.cloneNode(true);
   clone.removeAttribute("id");
-  clone.getElementsByClassName("posicion-name")[0].innerHTML =
-    "Fullstack Developer";
-  clone.getElementsByClassName("images")[0].src = "images/manage.svg";
+  clone.getElementsByClassName("posicion-name")[0].innerHTML = posicionName;
+  clone.getElementsByClassName("images")[0].src = images;
   clone.getElementsByClassName("enterprise-name")[0].innerHTML = "Manage";
   clone.getElementsByClassName("agreement")[0].innerHTML = "Part Time";
   clone.getElementsByClassName("country")[0].innerHTML = "Remote";
@@ -18,6 +17,7 @@ function createJobItem() {
   original.after(clone);
 }
 
-createJobItem();
-createJobItem();
-createJobItem();
+
+createJobItem("Junior Frontend  Developer",);
+createJobItem("Junior Frontend  Developer ", "images/account.svg");
+createJobItem("Fullstack Developer", "images/manage.svg"  );
