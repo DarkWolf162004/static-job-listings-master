@@ -45,6 +45,38 @@ function createJobItem(
 }
 
 createJobItem(
+    "Front-end Dev",
+    "The Air Filter Company",
+    "",
+    "",
+    "images/the-air-filter-company.svg",
+    "1mo ago",
+    "Part Time",
+    "Worldwide",
+    "Frontend",
+    "Junior",
+    "React",
+    "Sass",
+    "JavaScript",
+    false
+  );
+createJobItem(
+    "Full Stack Engineer",
+    "Eyecam Co.",
+    "",
+    "",
+    "images/eyecam-co.svg",
+    "3w ago",
+    "Full Time",
+    "Worldwide",
+    "Fullstack",
+    "Midweight",
+    "JavaScript",
+    "Django",
+    "Python",
+    false
+  );
+createJobItem(
   "Junior Frontend Developer",
   "Insure",
   "",
@@ -55,9 +87,9 @@ createJobItem(
   "USA only",
   "Frontend",
   "Junior",
-  "HTML",
-  "Sass",
+  "Vue",
   "JavaScript",
+  "Sass",
   false
 );
 createJobItem(
