@@ -133,25 +133,37 @@
     display: flex;
     flex-direction: column;
   }
-  img{
+  img {
     max-width: 88px;
     max-height: 89px;
   }
-  .start{
+  .start {
     align-items: center;
   }
 }
 
 @media (max-width: 550px) {
+  .container {
+    padding-top: 30px;
+  }
+
   .start {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+  }
+
+  .images {
+    position: absolute;
+    height: 50px;
+    top: -25px;
+    left: 20px;
   }
 }
 @media (max-width: 400px) {
-  .space{
-  display: flex;
-  flex-direction: column;
+  .space {
+    display: flex;
+    flex-direction: column;
   }
 }
