@@ -1,9 +1,9 @@
 .container {
-  font-family: 'League Spartan', sans-serif;
+  font-family: "League Spartan", sans-serif;
 }
-.start  {
-  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.35); 
-  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.35);
+.start {
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.35);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.35);
   width: 1000px;
   padding: 25px;
   margin: 0;
@@ -13,24 +13,23 @@
   margin-bottom: 30px;
 }
 
-.border-left-green { 
-  border-left: 6px solid #40A5A4;
+.border-left-green {
+  border-left: 6px solid #40a5a4;
 }
 
-.primary  {
+.primary {
   display: flex;
   align-items: center;
-  gap: 10px; 
+  gap: 10px;
 }
 
-.general-info  {
+.general-info {
   display: flex;
   gap: 10px;
 }
-  
 
 .enterprise-name {
-  color: #40A5A4;
+  color: #40a5a4;
 }
 
 .chip {
@@ -40,7 +39,7 @@
 
 .status {
   color: white;
-  background: #40A5A4;
+  background: #40a5a4;
 }
 
 .category {
@@ -70,34 +69,34 @@
   align-items: center;
 }
 
-.languages{ 
+.languages {
   display: flex;
   gap: 10px;
 }
 
 .role {
-  color: #40A5A4;
-  background: #EEEDED;
+  color: #40a5a4;
+  background: #eeeded;
 }
 
 .level {
-  color: #40A5A4;
-  background: #EEEDED;
+  color: #40a5a4;
+  background: #eeeded;
 }
 
 .web-page {
-  color: #40A5A4;
-  background: #EEEDED;
+  color: #40a5a4;
+  background: #eeeded;
 }
 
 .blade-style {
-  color: #40A5A4;
-  background: #EEEDED;
+  color: #40a5a4;
+  background: #eeeded;
 }
 
 .programming {
-  color: #40A5A4;
-  background: #EEEDED;
+  color: #40a5a4;
+  background: #eeeded;
 }
 
 .space {
@@ -112,4 +111,47 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+@media (max-width: 1085px) {
+  .start {
+    max-width: 80%;
+  }
+  .space {
+    gap: 20px;
+  }
+}
+@media (max-width: 850px) {
+  .languages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 730px) {
+  .secundary {
+    display: flex;
+    flex-direction: column;
+  }
+  img{
+    max-width: 88px;
+    max-height: 89px;
+  }
+  .start{
+    align-items: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 400px) {
+  .space{
+  display: flex;
+  flex-direction: column;
+  }
 }
