@@ -112,6 +112,10 @@
   flex-direction: column;
   gap: 10px;
 }
+.top-box {
+  background-color: #40a5a4;
+  margin-bottom: 90px;
+}
 
 @media (max-width: 1085px) {
   .start {
