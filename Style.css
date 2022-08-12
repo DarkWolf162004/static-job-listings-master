@@ -1,16 +1,21 @@
+body {
+  margin: 0;
+}
 .container {
   font-family: "League Spartan", sans-serif;
+  background-color: hsl(180, 52%, 96%);
 }
 .start {
   -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.35);
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.35);
   max-width: 1000px;
   padding: 25px;
-  margin: 0;
+  margin: auto;
   display: flex;
   gap: 10px;
   border-radius: 5px;
   margin-bottom: 30px;
+  background-color: white;
 }
 
 .border-left-green {
@@ -117,6 +122,11 @@
 
 .horizontal-separator {
   display: none;
+}
+.top-box {
+  background-color: #40a5a4;
+  margin-bottom: 30px;
+  width: 100%;
 }
 
 @media (max-width: 728px) {
